@@ -1,0 +1,39 @@
+a = 2;
+i = 5;
+b = 0;
+c = 0;
+while (i > b) {
+    b = b + 1;
+    if (b == a) {
+    c = b + 3 * (10 / (12 / (2 + 1) - a));
+    }
+}
+res = c;
+
+T = LList;
+g = 1;
+while (g <= 10){
+     T.add(g);
+     g = g + 1;
+}
+
+T.add(15);
+
+size = T.getSize;
+
+ValueOfLast = T.getLast.getValue;
+ValueOfFirst = T.getFirst.getValue;
+
+Circ1Value = T.getLast.getNext.getValue;
+Circ2Value = T.getLast.getPrev.getValue;
+
+H = HSet;
+H.add(2);
+H.add(3);
+H.add(3);
+H.add(4);
+H.add(1);
+Hash = H.getSize;
+Set = H.isSet(2);
+NotSet = H.isSet(9);
+
